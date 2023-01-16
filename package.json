@@ -1,0 +1,25 @@
+{
+  "name": "webrtc-video-call",
+  "version": "0.0.0",
+  "description": "A simple WebSocket-based server with two-way WebRTC video call",
+  "license": "MIT",
+  "dependencies": {
+    "amazon-kinesis-video-streams-webrtc": "^2.0.2",
+    "node-static": "^0.7.11",
+    "webrtc-adapter": "^7.2.4",
+    "websocket": "^1.0.28"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "client.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nnmer/webrtc-ws-example.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/nnmer/webrtc-ws-example/issues"
+  },
+  "homepage": "https://github.com/nnmer/webrtc-ws-example#readme"
+}
